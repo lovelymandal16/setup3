@@ -63,7 +63,7 @@
                             "label": "Minimum number of files",
                             "valueType": "string",
                             "condition": {
-                                "!=": [
+                                "==": [
                                     {
                                         "var": "multiSelection"
                                     },
@@ -77,7 +77,7 @@
                             "label": "Minimum files error message",
                             "valueType": "string",
                             "condition": {
-                                "!=": [
+                                "==": [
                                     {
                                         "var": "multiSelection"
                                     },
@@ -91,7 +91,7 @@
                             "label": "Maximum number of files",
                             "valueType": "string",
                             "condition": {
-                                "!=": [
+                                "==": [
                                     {
                                         "var": "multiSelection"
                                     },
@@ -105,7 +105,7 @@
                             "label": "Maximum files error message",
                             "valueType": "string",
                             "condition": {
-                                "!=": [
+                                "==": [
                                     {
                                         "var": "multiSelection"
                                     },
