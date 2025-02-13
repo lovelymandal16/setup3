@@ -73,7 +73,7 @@
                         },
                         {
                             "component": "text",
-                            "name": "maxItemsMessage",
+                            "name": "minItemsMessage",
                             "label": "Minimum files error message",
                             "valueType": "string",
                             "condition": {
