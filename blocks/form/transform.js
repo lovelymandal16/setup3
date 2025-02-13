@@ -102,7 +102,7 @@ function handleFranklinSpecialCases(item) {
   item.required = (item.required === 'x' || item.required === true);
 
   if (item.Max || item.Min || item?.constraintMessages?.max || item?.constraintMessages?.min) {
-    if (item.fieldType === 'number-input' || item.fieldType === 'date' || item.fieldType === 'range' || item.fieldType === 'file-input') {
+    if (item.fieldType === 'number-input' || item.fieldType === 'date' || item.fieldType === 'range') {
       item.maximum = item.Max;
       item.minimum = item.Min;
       setProperty(item.constraintMessages, 'maximum', item?.constraintMessages?.max);
